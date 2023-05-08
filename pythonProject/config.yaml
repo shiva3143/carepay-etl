@@ -1,0 +1,52 @@
+common_properties:
+
+
+
+
+local: #This block contains the properties to run the code in local
+  mysql_host: "xxx.xx.xx.x"
+  mysql_port: "3306"
+  mysql_database: "carepay"
+  mysql_username: "root"
+  mysql_password: "password"
+  redshift_url: "xxxxxx:5439/uat"
+  redshift_user: "xxxx"
+  redshift_password: "xxxxx"
+  redshift_temp_dir: "https://xxx/temp/"
+  redshift_db: "dev"
+  aws_access_key_id : ''
+  aws_secret_access_key : ''
+
+
+dev: #This block contains the dev specific properties
+  mysql_host: "xxx.xx.xx.x"
+  mysql_port: "3306"
+  mysql_database: "carepay"
+  mysql_username: "root"
+  mysql_password: "password"
+  redshift_url: "xxxxxx:5439/dev"
+  redshift_user: "xxxx"
+  redshift_password: "xxxxx"
+  redshift_temp_dir: "https://xxx/temp/"
+
+uat: #This block contains the uat specific properties
+  mysql_host: "xxx.xx.xx.x"
+  mysql_port: "3306"
+  mysql_database: "carepay"
+  mysql_username: "root"
+  mysql_password: "password"
+  redshift_url: "xxxxxx:5439/uat"
+  redshift_user: "xxxx"
+  redshift_password: "xxxxx"
+  redshift_temp_dir: "https://xxx/temp/"
+
+prod: #This block contains the uat specific properties
+  mysql_host: "xxx.xx.xx.x"
+  mysql_port: "3306"
+  mysql_database: "carepay"
+  mysql_username: "root"
+  mysql_password: "password"
+  redshift_url: "xxxxxx:5439/uat"
+  redshift_user: "xxxx"
+  redshift_password: "xxxxx"
+  redshift_temp_dir: "https://xxx/temp/"
